@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(25, 25, 25);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header {
+  color: white;
+    font-size:30px;
+    cursor: pointer; 
+}
+
+#header:hover {
+  color: hsla(0, 100%, 50%, 0.5);
+  animation: pulsate 2s infinite;
+} 
+@keyframes pulsate {
+  0% {
+color: hsla(0, 100%, 50%, 0.5);
+  }
+  50% {
+    color: hsla(180, 100%, 50%, 0.5);
+  }
+  100% {
+   color: hsla(360, 100%, 50%, 0.5);
+  }
+}
+
+.res {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  margin-top: 25px;
+}
+
+.mov {
+  color: white;
+}
+
+
+#rest {
+  height: 50px;
+  width: 50px;
+  background-color: none;
+}
+
+.move-button {
+  background-color: transparent;
+  border: 0.5px solid yellow;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 10px;
+}
+
+
+.shi {
+  margin-top: 20px;
+  width: 150px;
+  height: 25px;
+  background-color: #f78c6b;
+  border: none;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 8px;
+  animation: color-change 5s infinite;
+}
+
+
+@keyframes color-change {
+  0% {
+    background-color: #f78c6b;
+  }
+  50% {
+    background-color: #66a6ff;
+  }
+  100% {
+    background-color: #a35be7;
+  }
+}
+
+
+
+
+
+
+
